@@ -1,0 +1,15 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover; /* Adatta l'immagine alla dimensione dello schermo */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Non ripetere l'immagine */
+    height: 100vh; /* Altezza della vista */
+    margin: 0; /* Rimuovi margini */
+}
+
+.container {
+    color: black; /* Colore del testo */
+    text-align: center; /* Centra il testo */
+    padding: 20px; /* Spaziatura interna */
+}
+

@@ -1,0 +1,40 @@
+body {
+    margin: 0; 
+    height: 100vh; 
+    background-image: url('haked.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    color: white; /* Colore del testo */
+    text-align: center; /* Centra il testo */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente
+    border-radius: 10px; /* Angoli arrotondati */
+    max-width: 600px;
+    margin: auto; /* Centra il contenitore */
+    position: relative; 
+    top: 50%; /* Posizione verticale */
+    transform: translateY(-50%); /* Centra verticalmente */
+}
+
+.immage_center {
+    margin-right: 20px;
+}
+
+.immage_center {
+    position: center;
+}
+
+.button {
+    display: inline-block; /* Rende il link simile a un blocco */
+    padding: 10px 20px; /* Spaziatura interna del bottone */
+    background-color: #007BFF; /* Colore di sfondo del bottone */
+    color: white; /* Colore del testo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    border-radius: 5px; /* Angoli arrotondati */
+    transition: background-color 0.3s; /* Transizione del colore di sfondo */
+    text-align: center;
+}
